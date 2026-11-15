@@ -244,3 +244,6 @@ Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/**
 !/Source/ThirdParty/FastNoise2/Win64/Debug/FastNoiseD.lib
 !Resources/*
 .p4ignore
+
+# Build output (the "!*/" rule above would otherwise re-include the folder)
+/Binaries/Win64/
